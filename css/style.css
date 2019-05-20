@@ -1,0 +1,224 @@
+
+/*************** REUSABLE **************/
+
+html {
+  box-sizing: border-box!important;
+}
+
+body {
+  font-family: "Lato", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: relative;
+}
+
+
+.navbar-brand, .nav-item{
+  color: white!important;
+  font-family: "Handlee", cursive;
+  font-size: 1.3em;
+  
+}
+
+
+#myNavbar .active  {
+  color: #4a5e76 !important;
+}
+
+
+/************ HOME ***********************/
+
+#section-home {
+  background-image: url(../img/tech.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vw;
+}
+
+#section-home .intro-header {
+  font-family: "Handlee", cursive;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  height: 650px;
+  
+}
+
+#section-home h1 {
+  margin-top: 90px;
+}
+
+#section-home hr {
+  width: 400px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-top: 1px solid #f8f8f8;
+}
+
+
+#section-home ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+li a{
+  color: white!important;
+  font-family: 'Handlee', cursive;
+  padding-top: 10px;
+}
+
+#section-home .social-media-buttons > li {
+  padding-top: 0px;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Handlee', cursive;
+}
+
+#section-home i {
+  font-size: 20px;
+}
+
+#section-home #github i {
+  font-size: 20px;
+  padding-right: 7px;
+  
+}
+
+#section-home li a {
+  padding-top: 13px;
+
+}
+
+#section-home #github {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+
+/******************** ABOUT **********************/
+#section-about {
+  padding-top:50px;
+  padding-bottom: 100px;
+  background-color: #e3e7ed;
+}
+
+#section-about h3 {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-family: 'Handlee', cursive;
+}
+
+#section-about p {
+    display: inline;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 20px;
+  letter-spacing: 2px;
+}
+
+.resume {
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+
+/************************ PORTFOLIO *********************/
+
+#section-portfolio {
+  background: #ced6e0;
+  background-attachment: fixed;
+  font-family: 'Handlee', cursive;
+  
+}
+
+
+#section-portfolio img {
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+#section-portfolio h3 {
+  text-align: center;  
+  text-decoration: underline;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  padding-left: 40px;
+}
+
+
+#section-portfolio .portfolio-piece {
+  border: 1px solid white;
+  display: block;
+  width: 250px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 90%;
+}
+
+
+
+/************************* CONTACT **************************/
+
+#section-contact p {
+  font-size: 14px;
+  padding-left: 40px;
+  padding-top: 20px;
+  word-wrap: break-word;
+}
+
+#section-contact .social-media-buttons > li {
+  padding: 0px;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+#section-contact ul {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#section-contact p i {
+  font-size: 18px;
+  color: white;
+  }
+
+#section-contact li i {
+  font-size: 40px;
+  color: white;
+}
+
+#section-contact p a {
+  color: black;
+  padding-bottom: -2px;
+  margin-top: 15px;
+  color: white;
+}
+
+#section-contact p span {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
