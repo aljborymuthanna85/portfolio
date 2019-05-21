@@ -2,7 +2,8 @@
 /*************** REUSABLE **************/
 
 html {
-  box-sizing: border-box!important;
+  -webkit-box-sizing: border-box!important;
+          box-sizing: border-box!important;
 }
 
 body {
@@ -27,7 +28,7 @@ body {
 /************ HOME ***********************/
 
 #section-home {
-  background-image: url(../img/tech.jpg);
+  background-image: url(../img/tech-min.jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 100vw;
@@ -164,7 +165,8 @@ li a{
   margin-right: auto ;
   padding-bottom: 10px;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   max-width: 90%;
 }
 
